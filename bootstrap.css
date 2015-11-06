@@ -6383,7 +6383,7 @@ button.close {
   filter: alpha(opacity=50);
   opacity: .5;
 }
-/*.carousel-control.left {
+.carousel-control.left {
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
   background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
@@ -6441,7 +6441,7 @@ button.close {
 }
 .carousel-control .icon-next:before {
   content: '\203a';
-}*/
+}
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
@@ -6487,7 +6487,7 @@ button.close {
   text-shadow: none;
 }
 @media screen and (min-width: 768px) {
-/*  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
   .carousel-control .icon-next {
@@ -6503,7 +6503,7 @@ button.close {
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next {
     margin-right: -15px;
-  }*/
+  }
   .carousel-caption {
     right: 20%;
     left: 20%;
