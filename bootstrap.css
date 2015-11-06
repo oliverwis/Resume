@@ -3583,7 +3583,7 @@ tbody.collapse.in {
   font-size: 14px;
   text-align: left;
   list-style: none;
-  background-color:black;
+  background-color: #fff;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #ccc;
@@ -3600,16 +3600,15 @@ tbody.collapse.in {
   height: 1px;
   margin: 9px 0;
   overflow: hidden;
-  background-color:black;
+  background-color: #e5e5e5;
 }
 .dropdown-menu > li > a {
-  background-color:black;
   display: block;
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #D4D4D4;
+  color: #333;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
@@ -3629,7 +3628,7 @@ tbody.collapse.in {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color:#777;
+  color: #777;
 }
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
@@ -4131,12 +4130,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
     border-bottom-color: #fff;
-  
+  }
 }
 .nav-pills > li {
   float: left;
-  background-color:#000000;
-  border-radius:10px;
 }
 .nav-pills > li > a {
   border-radius: 4px;
@@ -4147,14 +4144,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #D4D4D4;
-  background-color: #454545;
-  border-radius:10px;
-}
-.nav-pills > li > a:hover {
-  background-color:#454545;
-  border-radius:10px;
-  color:#D4D4D4;
+  color: #fff;
+  background-color: #337ab7;
 }
 .nav-stacked > li {
   float: none;
@@ -6807,26 +6798,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-
-/*# ADDED THINGS FOR MY HTML PAGES - ALSO THIS IS A UNIVERSAL CSS FILE FOR MULTIPLE HTML FILES*/
-
-
-.box {
-  height:100px;
-  margin-top:10px;
-  border-radius:10px;  
-
-}
-
-.drag {
-  -webkit-user-drag: element;
-}
-
-.gamefileEmbed {
-  
-}
-
-
-
-
